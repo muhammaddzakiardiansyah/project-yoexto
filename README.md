@@ -9,6 +9,7 @@ Web for describe your expression today😃
 - HTML 5
 - CSS 3
 - PHP 8.3
+- Maria DB
 - Bootstrap
 - Jquery Validate
 - Sweetalert2

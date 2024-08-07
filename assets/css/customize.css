@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --color-primary: #dc3545;
+  --color-secondary: #1B1616;
+  --color-tree: #D7D7D7;
+  --color-for: #f4f6f7   ;
+  --extra-bold: 900;
+  --bold: 800;
+  --semibold: 700;
+  --medium: 600;
+  --normal: 500;
+  --font-primary: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mt-3em {
+  margin-top: 3em;
+}
+
+.mr-2 {
+  margin-right: 10px;
+}
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.text-secondary {
+  color: var(--color-secondary);
+}
+
+.text-gray {
+  color: var(--color-tree);
+}
+
+.text-white {
+  color: var(--color-for);
+}
+
+
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-tree {
+  background-color: var(--color-tree);
+}
+
+.bg-for {
+  background-color: var(--color-for);
+}
+
+.big-header {
+  font-family: var(--font-primary);
+  font-weight: var(--extra-bold);
+}
+
+.bold-header {
+  font-family: var(--font-primary);
+  font-weight: var(--bold);
+}
+
+.semibold-header {
+  font-family: var(--font-primary);
+  font-weight: var(--semibold);
+}
+
+.medium-header {
+  font-family: var(--font-primary);
+  font-weight: var(--medium);
+}
+
+.regular-header {
+  font-family: var(--font-primary);
+  font-weight: var(--normal);
+}
+
+.fs-extrabold {
+  font-size: 5em;
+}
+
+.wrapper-text {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.header {
+  width: 100%;
+  height: 100vh;
+}
+
+.btn-danger {
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
+
+.btn-secondary {
+  padding: 8px 15px;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+  font-weight: var(--medium);
+  border: 0;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
+
+section.about {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+section.information {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+section.instruction {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  list-style-type: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+div.section-login {
+  height: 100vh;
+}
+
+form {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
+
+.form-select {
+  padding: 10px 20px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
+
+.card {
+  padding: 25px;
+  border: 0;
+  background-color: var(--color-for);
+  box-shadow: 2px 5px 20px rgba(0, 0, 0, .1);
+}
+
+textarea.form-control {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.card-expression {
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.card-expression label {
+  cursor: pointer;
+}
+
+.form-check-input:checked {
+  background-color: var(--color-primary);
+  box-shadow: 2px 2px 20px var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 2px 2px 20px rgba(200, 53, 69, .5);
+  border: 3px solid rgba(200, 53, 69, .5);
+}
+
+p.text-copy {
+  cursor: pointer;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+
+p.text-copy:hover {
+  scale: 1.1;
+}
+
+label.error {
+  font-family: var(--font-primary);
+  font-weight: var(--medium);
+  color: var(--color-primary) !important;
+  margin-top: 10px;
+}
+
+input.w-10 {
+  width: 60px;
+}
+
+@media only screen and (max-width: 450px) {
+  .wrapper-text h1 {
+    font-size: 60px;
+  }
+
+  .footer-wrapper {
+    display: block !important;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .submited {
+    display: block;
+  }
+}

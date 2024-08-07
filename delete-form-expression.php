@@ -13,6 +13,9 @@ if (isset($_GET["fid"])) {
             showConfirmButton: false,
             timer: 2500,
           });
+          setTimeout(() => {
+            document.location.href = "result";
+          }, 2500);
         </script>
       ';
   } elseif ($delete_form === 500) {
@@ -25,6 +28,9 @@ if (isset($_GET["fid"])) {
             showConfirmButton: false,
             timer: 2500,
           });
+          setTimeout(() => {
+            document.location.href = "result";
+          }, 2500);
         </script>
       ';
   } elseif ($delete_form === 200) {

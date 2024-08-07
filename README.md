@@ -26,4 +26,4 @@ Web for describe your expression today😃
 
 # Contribute
 
-if you wanna be contribute please create pull request, evryone can use this project for learn or portfolio.
+if you wanna be contribute please create pull request, evryone can use this project for learn or portofolio.
